@@ -7,6 +7,7 @@ for (var i = 2; count < 30; i++) {
         count++;
         continue;
     }
+    
     for (var j = 2; j <= Math.sqrt(i); j++) {
         if (i % j == 0) {
             isPrime = false;

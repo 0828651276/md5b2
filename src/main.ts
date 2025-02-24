@@ -12,6 +12,7 @@ for (let i = 2; count < 30; i++) {
             isPrime = false;
             break;
         }
+        
     }
     if(!isPrime){
         continue;
